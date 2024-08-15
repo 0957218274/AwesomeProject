@@ -27,8 +27,10 @@ export default function Tour(props) {
                         ({ item, index }) => {
                             return (
                                 <View style={{ marginRight: 10 }}>
-                                    ...
+                                   
                                 </View>
+
+                                
                             )
                         }
                     }

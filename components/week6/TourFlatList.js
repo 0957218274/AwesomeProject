@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, ScrollView, Text, View } from "react-native";
+import { Dimensions, FlatList, Image, ScrollView, Text, View } from "react-native";
 import TourItem from "./TourItem";
 
 export default function TourFlatList(props) {
@@ -25,7 +25,7 @@ export default function TourFlatList(props) {
                         return (
                             <View>
                                 <View style={{ marginRight: 10 }}>
-                                    <Image style={{ width: Dimensions.get("screen").width / 2.0, height: 150, borderRadius: 10 }} source={{ uri: "item.uri" }} />
+                                    <Image style={{width: 2.0, height: 150, borderRadius: 10 }} source={{ uri: "item.uri" }} />
                                     <View style={{ marginTop: -30, height: 30, width: 200, paddingHorizontal: 10, backgroundColor: 'black', opacity: 0.5, borderBottomLeftRadius: 10, borderBottomRightRadius: 10 }}>
                                         <Text style={{ fontSize: 20, color: "white" }}>item.title </Text>
                                     </View>
@@ -41,6 +41,7 @@ export default function TourFlatList(props) {
         </View>
     );
 }
+
 
 
 

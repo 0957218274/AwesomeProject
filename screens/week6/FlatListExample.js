@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, FlatList, StyleSheet, Image, Button } from 'react-native';
+import { View, Text, FlatList, StyleSheet, Button, Image } from 'react-native';
 
 const posts = [
     { id: 1, username: 'User 1', content: 'This is the first post.', image: 'https://picsum.photos/200' },
