@@ -1,15 +1,14 @@
 import React from 'react';
-import { View, TextInput, Button } from 'react-native';
+import { Button, TextInput, View } from 'react-native';
 
 
 export default function Signup() {
     return (
-        <View style={{ padding : 20  }}>
-            <TextInput placeholder="Input ID" />
-            <TextInput placeholder="Input Email" />
-            <TextInput placeholder="Input address" />
-            <Button title="Sign up" color="green" />            
-            
-        </View>    
+        <View style={{ padding: 20, flex: 1, alignItems: "stretch" }}>
+            <TextInput style={{ fontSize: 20, marginTop: 10 }} placeholder="Input ID" />
+            <TextInput style={{ fontSize: 20, marginTop: 10 }} placeholder="Input Email" />
+            <TextInput style={{ fontSize: 20, marginTop: 10, marginBottom: 10 }} placeholder="Input Address" />
+            <Button title="Sign UP" color="red" />
+        </View>
     );
 }

@@ -29,7 +29,7 @@ export default function Event(props) {
     return (
         <View style={props.style}>
             <Text style={{ fontSize: 24, fontWeight: 'bold' }}>Upcoming Event</Text>
-            <Text style={{ fontSize: 18, color: "gray", marginVertical: 10 }}>Ok bro...</Text>
+            <Text style={{ fontSize: 18, color: "gray", marginVertical: 10 }}>What the.....</Text>
             <FlatList
                 horizontal={true}
                 data={onlineTours}
@@ -70,5 +70,3 @@ export default function Event(props) {
         </View>
     );
 }
-
-

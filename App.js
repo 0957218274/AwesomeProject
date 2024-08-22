@@ -15,7 +15,11 @@ import Ex10 from './screens/week2/Ex010';
 // import Greeting from './components/Greeting';
 import Travel from './screens/week3/Travel';
 import Health from './screens/week5/Heatlth';
-import Resort from './screens/week4/Resort';
+import Resort from './screens/week4/Resort'; 
+import { NavigationContainer } from '@react-navigation/native';
+import HomeStack from './components/navigations/HomeStack';
+import BottomTab from './components/navigations/BottomTab';
+import RootStack from './components/navigations/RootStack';
 
 
 
@@ -41,6 +45,11 @@ export default function App() {
     // <Travel/>
     // <Health/>
     // <Resort/>
-    <Home/>
+    // <Home/>
+    <NavigationContainer>
+     {/* <HomeStack/>  */}
+    {/* <BottomTab /> */}
+    <RootStack />
+    </NavigationContainer>
   );
 }
