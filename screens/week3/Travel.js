@@ -7,6 +7,7 @@ import Menu from "../../components/week3/Menu";
 
 import Signup from "../../components/week3/Signup";
 import MyIcon from "../../components/week3/MyIcon";
+// import MyIcon from "../../components/week3/MyIcon";
 
 export default function Travel() {
     return (
